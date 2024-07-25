@@ -1,40 +1,49 @@
-# Astro Starter Kit: Basics
+# Astro Starter Kit
 
+## 🚀 Getting Started
+Create a new website with the template:
 ```sh
-npm create astro@latest -- --template basics
+npm create astro@latest -- --template nclients/ssg-template-alice
 ```
+**Head to the project folder, then** add a theme via git's submodule:
+```sh
+rm -rf theme/ && git submodule add https://github.com/nclients/ssg-theme-astro.git theme
+```
+Optionally, remove demo content:
+```sh
+rm -rf website/content/demo-collection website/pages/demo/
+```
+Install all dependencies with `npm i` and commit the initial setup to git.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+**Note**: make sure you have installed [Node.js](https://nodejs.org/en) (the latest LTS version) and [GitHub Desktop](https://github.com/apps/desktop)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 🗂️ Project Structure
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+Inside of the project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
 │   └── favicon.svg
 ├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+│   ├── pages/
+│   │   |── index.mdx
+│   │   |── another-page.astro
+│   ├── content/
+│   │   └── content-collection/
+│   │       |── some.md
+│   │       |── some.mdx
+│   └── some-other-files-or-folders/
+├── theme/
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Astro looks for `.astro`, `.md`, `.mdx` and `.html` files in the `website/pages` directory. Each page is exposed as a route based on its file name.
 
 Any static assets, like images, can be placed in the `public/` directory.
+
+`theme/` directory links to the a git sub-module where we put our theme. **DO NOT touch it if you are not the theme developer.** Please keep it up-to-date by regularly pulling updates from upstream repository.
 
 ## 🧞 Commands
 
