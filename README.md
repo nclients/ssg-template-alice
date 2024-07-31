@@ -9,13 +9,11 @@ npm create astro@latest -- --template nclients/ssg-template-alice
 ```sh
 rm -rf theme/ && git submodule add https://github.com/nclients/ssg-theme-astro.git theme
 ```
-Optionally, remove demo content:
-```sh
-rm -rf website/content/demo-collection website/pages/demo/
-```
-Install all dependencies with `npm i` and commit the initial setup to git.
+Then change module's url to `git@github.com:nclients/ssg-theme-astro.git` (in `.gitmodules` file). This is for deploying to CloudFlare Pages.
 
-**Note**: make sure you have installed [Node.js](https://nodejs.org/en) (the latest LTS version) and [GitHub Desktop](https://github.com/apps/desktop)
+Finally, install all dependencies with `npm i` and commit the initial setup to git.
+
+**Note**: make sure you have installed [Node.js](https://nodejs.org/en) (the latest LTS version), [GitHub Desktop](https://github.com/apps/desktop) and [VS Code](https://code.visualstudio.com).
 
 
 ## 🗂️ Project Structure
@@ -62,14 +60,3 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-## Supplement
-
-Re-fetch the theme.
-
-```sh
-git submodule deinit -f theme
-git rm -f theme
-rm -rf .git/modules/theme
-git commit -m "Removed old theme submodule"
-git submodule add https://github.com/nclients/ssg-theme-astro.git theme
-git commit -m "Added new theme submodule"
