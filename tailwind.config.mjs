@@ -1,3 +1,4 @@
+// @ts-nocheck
 /** @type {import('tailwindcss').Config} */
 import config from "ssg-theme-astro/tailwind"
 export default {
