@@ -61,3 +61,15 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Supplement
+
+Re-fetch the theme.
+
+```sh
+git submodule deinit -f theme
+git rm -f theme
+rm -rf .git/modules/theme
+git commit -m "Removed old theme submodule"
+git submodule add https://github.com/nclients/ssg-theme-astro.git theme
+git commit -m "Added new theme submodule"
