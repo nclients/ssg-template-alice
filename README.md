@@ -1,4 +1,15 @@
-# Astro Starter Kit
+# SSG Starter Kit - Alice
+
+## 🍱 Preparing
+
+1. Install [Node.js](https://nodejs.org/en) (the latest LTS version), [GitHub Desktop](https://github.com/apps/desktop) and [VS Code](https://code.visualstudio.com).
+
+2. 請根據需要參考以下資料（均為中文資料）：
+ - [圖文教程：創建和修改網站內容](https://www.figma.com/design/n0RNNA2Yl5Cce6vRACvptK/Untitled?node-id=0-1)
+ - [YAML教程](https://www.ruanyifeng.com/blog/2016/07/yaml.html)
+ - [GitHub Desktop教程](https://docs.github.com/zh/desktop/overview/getting-started-with-github-desktop)
+ - [Visual Studio Code教程](https://vscode.cool/)
+ - [MarkDown教程](https://markdown.com.cn/)
 
 ## 🚀 Getting Started
 Create a directory `cd ~ && mkdir -p Websites`.
@@ -54,9 +65,10 @@ rm -rf theme/ && git submodule add https://github.com/ntddigital/ssg-theme-astro
 
 Finally, install all dependencies with `npm i` and commit the initial setup to git.
 
-**Note**: make sure you have installed [Node.js](https://nodejs.org/en) (the latest LTS version), [GitHub Desktop](https://github.com/apps/desktop) and [VS Code](https://code.visualstudio.com).
-
-
+**Note:** 
+ - please install dependencies with `npm i` after you clone the repository
+ - please update theme (submodule) when these is any update from theme
+ 
 ## 🗂️ Project Structure
 
 Inside of the project, you'll see the following folders and files:
