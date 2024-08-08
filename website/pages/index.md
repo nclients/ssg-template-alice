@@ -32,6 +32,7 @@ header:
     text: ""
     size: 16
     color: ""
+  showTextAfterLogoOnMobile: false
   bgColor: "#ffffff"
   bgOpacity: "1" # 0~1
   menuTextColor: "#000000"
@@ -304,16 +305,16 @@ footer:
   uberEats: false
   uberEatsLink: ""
 
-
   acceptedPaymentMethodsInsteadText: ""
   paymentMethod: "applePay,visa,amex,alipay,mastercard" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
   # at a minimum, please make sure to include the meta description.
-  seo:
-    metaDescription: "A Chinese restaurant located at 1312 Saratoga Ave, San Jose, CA, offers Jiangsu and Zhejiang dishes. We offer takeout and delivery." 
-    keywords: ""
-    img: ""
-    thisPageUrl: ""
-    locale: "en_US" # zh_TW | zh_CN
+seo:
+  metaTitle: ""
+  metaDescription: "" 
+  keywords: ""
+  img: ""
+  thisPageUrl: ""
+  locale: "en_US" # zh_TW | zh_CN
 ---
 <!-- hello world -->
