@@ -299,6 +299,11 @@ footer:
   youtubeLink: ""
   yelp: false
   yelpLink: ""
+  doorDash: false
+  doorDashLink: ""
+  uberEats: false
+  uberEatsLink: ""
+
 
   acceptedPaymentMethodsInsteadText: ""
   paymentMethod: "applePay,visa,amex,alipay,mastercard" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
