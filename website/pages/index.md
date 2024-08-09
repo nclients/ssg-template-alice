@@ -18,12 +18,9 @@ banner:
   text: 
     # - boldText: "🥳 Special Offer"
     - boldText: "20% off cash discount"
-    - text: " on xxx"
+    - text: "on xxx"
     - smText: ""
   # add more text...
-  textColor: "#ffffff"
-  bgColor: "#E7383D"
-  bgOpacity: "1" # 0~1
 
 # header
 header:
@@ -33,6 +30,8 @@ header:
     size: 16
     color: ""
   showTextAfterLogoOnMobile: false
+  logoOnMobile: ""
+  
   bgColor: "#ffffff"
   bgOpacity: "1" # 0~1
   menuTextColor: "#000000"
