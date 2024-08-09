@@ -13,6 +13,7 @@ ruid: ""
 orderOnlineLink: ""
 tableReservationLink: ""
 tel: "012-345-6789"
+trackingNum: ""
 
 banner:
   text: 
@@ -30,7 +31,7 @@ header:
     size: 16
     color: ""
   showTextAfterLogoOnMobile: false
-  logoOnMobile: ""
+  logoOnMobile: "" # e.g., 'logo.png'. Set a logo for mobile that is different from the desktop.
   
   bgColor: "#ffffff"
   bgOpacity: "1" # 0~1
@@ -70,6 +71,7 @@ sections:
     description: 
       - "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
     descriptionColor: "#ffffff"
+    isTextAlignCenter: true
     # title2: 
     #   - ""
     # title2Color: "#ffffff"
@@ -197,8 +199,10 @@ sections:
     addTelBtn: true
     tel: "12345678"
     telInsteadText: "Call: (123) 456-7890"
-    tel2: "876543210" # if there are two phone numbers"
+    telTrackingNum: "" # if there are two phone numbers
+    tel2: "876543210" # if there are two phone numbers
     tel2InsteadText: "Call: (876) 543-2100"
+    telTrackingNum2: "" # if there are two phone numbers
     getDirectionBtnInsteadText: ""
     imgPosition: "" # imgLeft | imgRight
 
