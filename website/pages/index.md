@@ -1,6 +1,6 @@
 ---
 layout: "ssg-theme-astro/layouts/main.astro"  # This line of code should remain unchanged.
-tag: "GTM-"
+tag: "" #GTM-xxx
 title: "xxx - Best Food Today"
 favicon: "favicon.ico"
 logo: "logo.png"
@@ -92,6 +92,7 @@ sections:
     imgPosition: "imgLeft" # imgLeft | imgRight
     bannerMarginTopMobile: 20
     imgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
+    imgEffect: "hoverRotate" #hoverRotate
    
     bottomRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
     # bottomInfo: "We offer Takeout"
@@ -316,5 +317,7 @@ seo:
   img: ""
   thisPageUrl: ""
   locale: "en_US" # zh_TW | zh_CN
+  canonicalHref: ""
+  
 ---
 <!-- hello world -->
