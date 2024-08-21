@@ -311,13 +311,54 @@ footer:
 
   # at a minimum, please make sure to include the meta description.
 seo:
-  metaTitle: ""
-  metaDescription: "" 
+  metaTitle: "test"
+  metaDescription: "test" 
   keywords: ""
-  img: ""
+  img: "" # at least 1200 x 630px
   thisPageUrl: ""
-  locale: "en_US" # zh_TW | zh_CN
+  locale: "en_US" # zh_TW | zh_CN | ja_JP
   canonicalHref: ""
+  # name: "test"
+  images:
+  - "https://crabbynewark.com/photos/1x1/photo.jpg"
+  - "https://crabbynewark.com/photos/4x3/photo.jpg"
+  - "https://crabbynewark.com/photos/16x9/photo.jpg"
+  address:
+    streetAddress: "148 W 51st St"
+    addressLocality: "New York"
+    addressRegion: "NY"
+    postalCode: "10019"
+    addressCountry: "US"
+  review:
+    ratingValue: "4"
+    bestRating: "5"
+    authorName: "Lillian Ruiz"
+  geo:
+    latitude: 40.761293
+    longitude: -73.982294
+  url: "https://crabbynewark.com/restaurant-locations/manhattan"
+  telephone: "+12122459600"
+  servesCuisine: "American"
+  priceRange: "$$$"
+  openingHours:
+    - dayOfWeek:
+        - "Monday"
+        - "Tuesday"
+      opens: "11:30"
+      closes: "22:00"
+    - dayOfWeek:
+        - "Wednesday"
+        - "Thursday"
+        - "Friday"
+      opens: "11:30"
+      closes: "23:00"
+    - dayOfWeek: "Saturday"
+      opens: "16:00"
+      closes: "23:00"
+    - dayOfWeek: "Sunday"
+      opens: "16:00"
+      closes: "22:00"
+  menu: "https://crabbynewark.com/menu"
   
 ---
 <!-- hello world -->
