@@ -312,97 +312,171 @@ footer:
   # at a minimum, please make sure to include the meta description.
 seo:
   metaTitle: "" 
-  metaDescription: ""
-  keywords: "" # steak, restaurant, fine dining, New York
-  img: "" # https://example.com/photos/1x1/photo.jpg
-  thisPageUrl: "" # https://example.com/
-  locale: "" # zh_TW | zh_CN | ja_JP
-  canonicalHref: "" # https://example.com/
-  name: "" # restaurant name
-  images:
-    - ""  # https://example.com/photos/1x1/photo.jpg
-    - ""  # https://example.com/photos/1x1/photo.jpg
-    - ""  # https://example.com/photos/1x1/photo.jpg
-  # address:
-  #   streetAddress: "" # 148 W 51st St
-  #   addressLocality: "" # New York
-  #   addressRegion: "" # NY
-  #   postalCode: "" # 10019
-  #   addressCountry: "" # US
 
+  metaDescription: "A Chinese restaurant located at 1312 Saratoga Ave, San Jose, CA, offers Jiangsu and Zhejiang dishes. We offer takeout and delivery."
+
+  keywords: "" # steak, restaurant, fine dining, New York
+
+  img: "https://www.sweethomekitchensj.com/gallery/Salted%20duck.webp" # https://example.com/photos/1x1/photo.jpg
+
+  thisPageUrl: "https://www.sweethomekitchensj.com/" # https://example.com/
+
+  locale: "en_US" # zh_TW | zh_CN | ja_JP
+
+  canonicalHref: "https://www.sweethomekitchensj.com/" # https://example.com/
+
+  name: "Sweet Home Kitchen 家之味" # restaurant name
+
+  images:
+    - "https://www.sweethomekitchensj.com/gallery/Shanghai Pork Ribs.webp"  # https://example.com/photos/1x1/photo.jpg
+    - "https://www.sweethomekitchensj.com/gallery/Shu Style Gold Pomfret.webp"  # https://example.com/photos/1x1/photo.jpg
+    - "https://www.sweethomekitchensj.com/gallery/SweetHome Kitchen 家之味5.webp"  # https://example.com/photos/1x1/photo.jpg
+  
+  address:
+    streetAddress: "1312 Saratoga Ave" # 148 W 51st St
+    addressLocality: "San Jose" # New York
+    addressRegion: "CA" # NY
+    postalCode: "95129" # 10019
+    addressCountry: "US" # US
 
   review:
-    ratingValue: "" #4.5
-    bestRating: "" # 5
-    authorName: "" # Google Review
-    reviewType: "" # Organization. Google Review ->"Organization", 
+    ratingValue: "4.6" #4.5
+    bestRating: "5" # 5
+    authorName: "Google Review" # Google Review
+    reviewType: "Organization" # Organization. Google Review ->"Organization", 
 
   # review:
   #   ratingValue: "4.5"
   #   bestRating: "5"
   #   authorName: "Yelp"
-  # reviewType: "Organization" # Yelp 是一个组织，因此设置为 Organization
+  #   reviewType: "Organization" # Yelp 是一个组织，因此设置为 Organization
 
   # review:
   #   ratingValue: "4.9"
   #   bestRating: "5"
   #   authorName: "John Doe"
-  # reviewType: "Person"
-
+  #   reviewType: "Person"
 
   geo:
-    latitude: # 40.761293
-    longitude: # -73.982294
+    latitude: 37.30051526803661 # 40.761293
+    longitude: -121.98031741934436 # -73.982294
   url: "" # https://www.example.com
 
+  telephone: "+1-408-216-0979" # +1212345678
 
-  telephone: "" # +1212345678
-  servesCuisine: "" # Chinese, American OR ["American", "Italian", "Chinese", "Mexican"]
-  priceRange: "" # $,$$,$$$,$$$$. $->Inexpensive, $$->Moderate, $$$->Expensive, $$$$->Luxury
-  # openingHours:
-  #   - dayOfWeek:
-  #       - "Monday"
-  #       - "Tuesday"
-  #     opens: "11:30"
-  #     closes: "22:00"
-  #   - dayOfWeek:
-  #       - "Wednesday"
-  #       - "Thursday"
-  #       - "Friday"
-  #     opens: "11:30"
-  #     closes: "23:00"
-  #   - dayOfWeek: "Saturday"
-  #     opens: "16:00"
-  #     closes: "23:00"
-  #   - dayOfWeek: "Sunday"
-  #     opens: "16:00"
-  #     closes: "22:00"
-  menu: "" # https://example.com/
+  servesCuisine: ["Chinese", "Jiangsu and Zhejiang dishes"]
+
+  priceRange: "$$" # $,$$,$$$,$$$$. $->Inexpensive, $$->Moderate, $$$->Expensive, $$$$->Luxury
+
+  openingHours:
+  - dayOfWeek:
+      - "Monday"
+    opens: "11:00"
+    closes: "14:30"
+  - dayOfWeek:
+      - "Monday"
+    opens: "17:00"
+    closes: "19:30"
+  - dayOfWeek:
+      - "Tuesday"
+      - "Wednesday"
+      - "Thursday"
+      - "Friday"
+      - "Saturday"
+      - "Sunday"
+    opens: "11:00"
+    closes: "14:30"
+  - dayOfWeek:
+      - "Tuesday"
+      - "Wednesday"
+      - "Thursday"
+      - "Friday"
+      - "Saturday"
+      - "Sunday"
+    opens: "17:00"
+    closes: "20:30"
+   
+  menu: "https://www.sweethomekitchensj.com/" # https://example.com/
+
   # acceptsReservations: true # true or false
-  hasMenu: "" # https://crabbynewark.com/full-menu
+
+  hasMenu: "https://www.sweethomekitchensj.com/" # https://crabbynewark.com/full-menu
+
   starRating:
-    ratingValue: "" # 4.5
-    bestRating: "" # 5
-    author: "" # Michelin Guide
-  currenciesAccepted: "" # USD
-  paymentAccepted: ""  # Cash, Credit Card, Debit Card, Apple Pay, Google Pay, PayPal, Bitcoin, Bank Transfer, Check, Mobile Payment, Contactless Payment, Gift Card, Invoice
-  # hasMenuSection:
-  #   - name: "" # Appetizers
-  #     hasMenuItem:
-  #       - name: "" # Garlic Bread
-  #         description: "" # Toasted bread with garlic and herbs
-  #         price: "" # 5.99
-  #       - name: "" # Bruschetta
-  #         description: "" # Grilled bread with tomatoes and basil
-  #         price: "" # 7.99
-  #   - name: "" #Main Courses
-  #     hasMenuItem:
-  #       - name: "" # Grilled Salmon
-  #         description: "" # Fresh salmon grilled to perfection
-  #         price: "" # 18.99
-  #       - name: "" # Steak
-  #         description: "" # Juicy steak cooked to order
-  #         price: "" # 25.99
+    ratingValue: "4.6" # 4.5
+    bestRating: "5" # 5
+    author: "Google Review" # Michelin Guide, Google Review
+    authorType: "organization" #person,organization
+
+  currenciesAccepted: "USD" # USD
   
+  paymentAccepted: "Cash, American Express, Apple Pay, MasterCard, Visa"
+
+  hasMenuSection:
+    - name: "南京风味 Nanjing Dish" # Appetizers
+      image: "https://www.sweethomekitchensj.com/gallery/Salted%20duck.webp"
+      description: "Experience the authentic taste of Nanjing cuisine, known for its rich flavors and delicate preparation methods."
+      hasMenuItem:
+        - name: "N1 南京烤鸭（半只） Nanjing Roasted Duck (half, limited qty)"
+          description: "Delicious roasted duck with special seasoning."
+          price: "25.95"
+          image: "https://www.sweethomekitchensj.com/gallery/006%20SweetHome%20Kitchen%20%E5%AE%B6%E4%B9%8B%E5%91%B311.webp"
+        - name: "N2 金陵盐水鸭(半只) Nanjing Salted Duck(Half, Limited qty)"
+          description: "Tender salted duck, a classic dish."
+          price: "19.95"
+          image: "https://www.sweethomekitchensj.com/gallery/Salted%20duck.webp"
+    - name: "招牌特色菜 House Special" # Main Courses
+      hasMenuItem:
+        - name: "T1 爆炒腰花(辣/不辣) Stir Fried Pork Kidney(Spicy/Non Spicy)"
+          description: "Stir-fried pork kidney cooked with spices."
+          price: "18.95"
+          image: ""
+        - name: "T2 美极腰花 Special pork kidney"
+          description: "A special recipe for stir-fried kidney."
+          price: "18.95"
+          image: ""
+    - name: "前菜 Appetizer" # Appetizers
+      hasMenuItem:
+        - name: "A1 特色黄瓜 House Special Cucumber"
+          description: "Crisp cucumbers with house dressing."
+          price: "8.95"
+          image: ""
+        - name: "A2 剁椒皮蛋 Pepper And Century Eggs"
+          description: "Century eggs topped with spicy sauce."
+          price: "8.95"
+          image: ""
+    - name: "海鲜系列 Seafood" # Main Courses
+      hasMenuItem:
+        - name: "S2 椒盐鱼片 Salt Pepper Fish Filet"
+          description: "Crispy fish fillet seasoned with salt and pepper."
+          price: "16.95"
+          image: ""
+        - name: "S1 水煮鱼片 Sichuan Poached Spicy Fish Filet"
+          description: "Spicy poached fish fillet in Sichuan style."
+          price: "17.95"
+          image: ""
+        
+  offers:
+    - name: "20% off cash discount on frozen handmade dumplings"
+      description: "Enjoy a 20% discount when you pay with cash for our frozen handmade dumplings."
+      priceCurrency: "USD"
+      price: "varies"
+      image: ""
+    - name: "10% off cash discount on family meal takeout"
+      description: "Get 10% off when you pay with cash for family meal takeout."
+      priceCurrency: "USD"
+      price: "varies"
+      image: ""
+    - name: "Family Set: Any 3 dishes for $40"
+      description: "Choose any 3 dishes for just $40, includes free rice."
+      priceCurrency: "USD"
+      price: "40"
+      image: ""
+    - name: "Free rice with lunch"
+      description: "Receive free rice with any lunch order."
+      priceCurrency: "USD"
+      price: "0"
+      image: ""
+      
 ---
-<!-- Powered by Best Food Today -->
+<!-- hello world -->

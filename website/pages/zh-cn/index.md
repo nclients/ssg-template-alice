@@ -1,7 +1,8 @@
 ---
 layout: "ssg-theme-astro/layouts/main.astro"
-tag: "GTM-"
-title: "CRABBY CRABBY NEWARK - Best Food Today"
+tag: ""
+googleSiteVerification: "" 
+title: ""
 
 ---
 Copy the index.md file and translate the text into Chinese.
