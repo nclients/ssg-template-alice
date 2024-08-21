@@ -128,7 +128,6 @@ sections:
     imgNameColor: "#000000"
     menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
 
-
 # textBlock - only title
   - type: "textBlock" 
     id: "about-us"
@@ -311,54 +310,98 @@ footer:
 
   # at a minimum, please make sure to include the meta description.
 seo:
-  metaTitle: "test"
-  metaDescription: "test" 
-  keywords: ""
-  img: "" # at least 1200 x 630px
-  thisPageUrl: ""
-  locale: "en_US" # zh_TW | zh_CN | ja_JP
-  canonicalHref: ""
-  # name: "test"
+  metaTitle: "" 
+  metaDescription: ""
+  keywords: "" # steak, restaurant, fine dining, New York
+  img: "" # https://example.com/photos/1x1/photo.jpg
+  thisPageUrl: "" # https://example.com/
+  locale: "" # zh_TW | zh_CN | ja_JP
+  canonicalHref: "" # https://example.com/
+  name: "" # restaurant name
   images:
-  - "https://crabbynewark.com/photos/1x1/photo.jpg"
-  - "https://crabbynewark.com/photos/4x3/photo.jpg"
-  - "https://crabbynewark.com/photos/16x9/photo.jpg"
-  address:
-    streetAddress: "148 W 51st St"
-    addressLocality: "New York"
-    addressRegion: "NY"
-    postalCode: "10019"
-    addressCountry: "US"
+    - ""  # https://example.com/photos/1x1/photo.jpg
+    - ""  # https://example.com/photos/1x1/photo.jpg
+    - ""  # https://example.com/photos/1x1/photo.jpg
+  # address:
+  #   streetAddress: "" # 148 W 51st St
+  #   addressLocality: "" # New York
+  #   addressRegion: "" # NY
+  #   postalCode: "" # 10019
+  #   addressCountry: "" # US
+
+
   review:
-    ratingValue: "4"
-    bestRating: "5"
-    authorName: "Lillian Ruiz"
+    ratingValue: "" #4.5
+    bestRating: "" # 5
+    authorName: "" # Google Review
+  reviewType: "" # Organization. Google Review ->"Organization", 
+
+  # review:
+  #   ratingValue: "4.5"
+  #   bestRating: "5"
+  #   authorName: "Yelp"
+  # reviewType: "Organization" # Yelp 是一个组织，因此设置为 Organization
+
+  # review:
+  #   ratingValue: "4.9"
+  #   bestRating: "5"
+  #   authorName: "John Doe"
+  # reviewType: "Person"
+
+
   geo:
-    latitude: 40.761293
-    longitude: -73.982294
-  url: "https://crabbynewark.com/restaurant-locations/manhattan"
-  telephone: "+12122459600"
-  servesCuisine: "American"
-  priceRange: "$$$"
-  openingHours:
-    - dayOfWeek:
-        - "Monday"
-        - "Tuesday"
-      opens: "11:30"
-      closes: "22:00"
-    - dayOfWeek:
-        - "Wednesday"
-        - "Thursday"
-        - "Friday"
-      opens: "11:30"
-      closes: "23:00"
-    - dayOfWeek: "Saturday"
-      opens: "16:00"
-      closes: "23:00"
-    - dayOfWeek: "Sunday"
-      opens: "16:00"
-      closes: "22:00"
-  menu: "https://crabbynewark.com/menu"
+    latitude: # 40.761293
+    longitude: # -73.982294
+  url: "" # https://www.example.com
+
+
+  telephone: "" # +1212345678
+  servesCuisine: "" # Chinese, American OR ["American", "Italian", "Chinese", "Mexican"]
+  priceRange: "" # $,$$,$$$,$$$$. $->Inexpensive, $$->Moderate, $$$->Expensive, $$$$->Luxury
+  # openingHours:
+  #   - dayOfWeek:
+  #       - "Monday"
+  #       - "Tuesday"
+  #     opens: "11:30"
+  #     closes: "22:00"
+  #   - dayOfWeek:
+  #       - "Wednesday"
+  #       - "Thursday"
+  #       - "Friday"
+  #     opens: "11:30"
+  #     closes: "23:00"
+  #   - dayOfWeek: "Saturday"
+  #     opens: "16:00"
+  #     closes: "23:00"
+  #   - dayOfWeek: "Sunday"
+  #     opens: "16:00"
+  #     closes: "22:00"
+  menu: "" # https://example.com/
+  # acceptsReservations: true # true or false
+  hasMenu: "" # https://crabbynewark.com/full-menu
+  starRating:
+    ratingValue: "" # 4.5
+    bestRating: "" # 5
+    author: "" # Michelin Guide
+  currenciesAccepted: "" # USD
+  paymentAccepted: ""  # Cash, Credit Card, Debit Card, Apple Pay, Google Pay, PayPal, Bitcoin, Bank Transfer, Check, Mobile Payment, Contactless Payment, Gift Card, Invoice
+  # hasMenuSection:
+  #   - name: "" # Appetizers
+  #     hasMenuItem:
+  #       - name: "" # Garlic Bread
+  #         description: "" # Toasted bread with garlic and herbs
+  #         price: "" # 5.99
+  #       - name: "" # Bruschetta
+  #         description: "" # Grilled bread with tomatoes and basil
+  #         price: "" # 7.99
+  #   - name: "" #Main Courses
+  #     hasMenuItem:
+  #       - name: "" # Grilled Salmon
+  #         description: "" # Fresh salmon grilled to perfection
+  #         price: "" # 18.99
+  #       - name: "" # Steak
+  #         description: "" # Juicy steak cooked to order
+  #         price: "" # 25.99
   
 ---
 <!-- hello world -->
