@@ -334,7 +334,7 @@ seo:
     ratingValue: "" #4.5
     bestRating: "" # 5
     authorName: "" # Google Review
-  reviewType: "" # Organization. Google Review ->"Organization", 
+    reviewType: "" # Organization. Google Review ->"Organization", 
 
   # review:
   #   ratingValue: "4.5"
