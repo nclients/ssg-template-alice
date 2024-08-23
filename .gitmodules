@@ -1,6 +1,3 @@
 [submodule "ssg-theme-astro"]
 	path = ssg-theme-astro
 	url = https://github.com/ntddigital/ssg-theme-astro.git
-[submodule "theme"]
-	path = theme
-	url = https://github.com/ntddigital/ssg-theme-astro.git
