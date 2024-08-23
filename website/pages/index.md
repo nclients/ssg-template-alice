@@ -261,7 +261,7 @@ sections:
       - "20% off cash discount on frozen handmade dumplings. 10% off cash discount on family meal takeout. Free rice with lunch. Delivery available."
     descriptionColor: ""
     descriptionSize: 16
-    imgName: "special_offer.webp"
+    imgName: "offer.png"
     imgAlt: "20% off cash discount on frozen handmade dumplings. 10% off cash discount on family meal takeout. Free rice with lunch. Delivery available."
     imgHref: ""
     buttonText: ""
@@ -309,38 +309,38 @@ footer:
   acceptedPaymentMethodsInsteadText: ""
   paymentMethod: "applePay,visa,amex,alipay,mastercard" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
-  # at a minimum, please make sure to include the meta description.
 seo:
   metaTitle: "" 
 
-  metaDescription: "A Chinese restaurant located at 1312 Saratoga Ave, San Jose, CA, offers Jiangsu and Zhejiang dishes. We offer takeout and delivery."
+  metaDescription: "Crabby Crabby Newark is a premier seafood restaurant located at 6225 Jarvis Ave, Newark, CA 94560. Enjoy fresh and delicious seafood dishes in a vibrant and friendly atmosphere."
 
   keywords: "" # steak, restaurant, fine dining, New York
 
-  img: "https://www.sweethomekitchensj.com/gallery/Salted%20duck.webp" # https://example.com/photos/1x1/photo.jpg
+  img: "https://crabbynewark.com/gallery/Seafood_Whole_Dungeness_Crab.webp" # https://example.com/photos/1x1/photo.jpg
 
-  thisPageUrl: "https://www.sweethomekitchensj.com/" # https://example.com/
+  thisPageUrl: "https://crabbynewark.com/" # https://example.com/
 
   locale: "en_US" # zh_TW | zh_CN | ja_JP
 
-  canonicalHref: "https://www.sweethomekitchensj.com/" # https://example.com/
+  canonicalHref: "https://crabbynewark.com/" # https://example.com/
 
-  name: "Sweet Home Kitchen 家之味" # restaurant name
+  name: "Crabby Crabby Newark" # restaurant name
 
   images:
-    - "https://www.sweethomekitchensj.com/gallery/Shanghai Pork Ribs.webp"  # https://example.com/photos/1x1/photo.jpg
-    - "https://www.sweethomekitchensj.com/gallery/Shu Style Gold Pomfret.webp"  # https://example.com/photos/1x1/photo.jpg
-    - "https://www.sweethomekitchensj.com/gallery/SweetHome Kitchen 家之味5.webp"  # https://example.com/photos/1x1/photo.jpg
-  
+    - "https://crabbynewark.com/gallery/Seafood_Whole_Dungeness_Crab.webp"  # https://example.com/photos/1x1/photo.jpg
+    - "https://crabbynewark.com/gallery/Tacos_2.webp"  # https://example.com/photos/1x1/photo.jpg
+    - "https://crabbynewark.com/gallery/Seafood_Whole_Dungeness_Crab_2.webp"  # https://example.com/photos/1x1/photo.jpg
+    - 
   address:
-    streetAddress: "1312 Saratoga Ave" # 148 W 51st St
-    addressLocality: "San Jose" # New York
+    streetAddress: "6225 Jarvis Ave" # 148 W 51st St
+    addressLocality: "Newark" # New York
     addressRegion: "CA" # NY
-    postalCode: "95129" # 10019
+    postalCode: "94560" # 10019
     addressCountry: "US" # US
 
+
   review:
-    ratingValue: "4.6" #4.5
+    ratingValue: "4.5" #4.5
     bestRating: "5" # 5
     authorName: "Google Review" # Google Review
     reviewType: "Organization" # Organization. Google Review ->"Organization", 
@@ -357,126 +357,121 @@ seo:
   #   authorName: "John Doe"
   #   reviewType: "Person"
 
+
   geo:
-    latitude: 37.30051526803661 # 40.761293
-    longitude: -121.98031741934436 # -73.982294
-  url: "" # https://www.example.com
+    latitude: 37.55052611620485 # 40.761293
+    longitude: -122.0512589463209 # -73.982294
+  url: "https://crabbynewark.com/" # https://www.example.com
+ 
+  telephone: "+1-510-588-1218" # +1212345678
 
-  telephone: "+1-408-216-0979" # +1212345678
-
-  servesCuisine: ["Chinese", "Jiangsu and Zhejiang dishes"]
-
+  servesCuisine: [
+    "Seafood",
+    "Cajun Cuisine",
+    "American Cuisine"
+]
   priceRange: "$$" # $,$$,$$$,$$$$. $->Inexpensive, $$->Moderate, $$$->Expensive, $$$$->Luxury
-
   openingHours:
   - dayOfWeek:
       - "Monday"
-    opens: "11:00"
-    closes: "14:30"
+      - "Tuesday"
+      - "Wednesday"
+      - "Thursday"
+      - "Friday"
+    opens: "11:30"
+    closes: "15:00"
   - dayOfWeek:
       - "Monday"
-    opens: "17:00"
-    closes: "19:30"
-  - dayOfWeek:
       - "Tuesday"
       - "Wednesday"
       - "Thursday"
       - "Friday"
-      - "Saturday"
-      - "Sunday"
-    opens: "11:00"
-    closes: "14:30"
-  - dayOfWeek:
-      - "Tuesday"
-      - "Wednesday"
-      - "Thursday"
-      - "Friday"
-      - "Saturday"
-      - "Sunday"
     opens: "17:00"
-    closes: "20:30"
+    closes: "21:00"
+  - dayOfWeek:
+      - "Saturday"
+      - "Sunday"
+    opens: "12:00"
+    closes: "21:00"
    
-  menu: "https://www.sweethomekitchensj.com/" # https://example.com/
-
+  menu: "https://crabbynewark.com/" # https://example.com/
   # acceptsReservations: true # true or false
-
-  hasMenu: "https://www.sweethomekitchensj.com/" # https://crabbynewark.com/full-menu
-
+  hasMenu: "https://crabbynewark.com/" # https://crabbynewark.com/full-menu
   starRating:
-    ratingValue: "4.6" # 4.5
+    ratingValue: "4.5" # 4.5
     bestRating: "5" # 5
     author: "Google Review" # Michelin Guide, Google Review
     authorType: "organization" #person,organization
-
   currenciesAccepted: "USD" # USD
-  
-  paymentAccepted: "Cash, American Express, Apple Pay, MasterCard, Visa"
+  paymentAccepted: "Cash, Visa"
 
   hasMenuSection:
-    - name: "南京风味 Nanjing Dish" # Appetizers
-      image: "https://www.sweethomekitchensj.com/gallery/Salted%20duck.webp"
-      description: "Experience the authentic taste of Nanjing cuisine, known for its rich flavors and delicate preparation methods."
+    - name: "SEAFOOD" # Appetizers
+      image: "https://crabbynewark.com/gallery/Seafood_Whole_Lobster.webp"
+      description: "From the heart of Newark, CA, Crabby Crabby Restaurant is a corner where tradition meets flavor."
       hasMenuItem:
-        - name: "N1 南京烤鸭（半只） Nanjing Roasted Duck (half, limited qty)"
-          description: "Delicious roasted duck with special seasoning."
-          price: "25.95"
-          image: "https://www.sweethomekitchensj.com/gallery/006%20SweetHome%20Kitchen%20%E5%AE%B6%E4%B9%8B%E5%91%B311.webp"
-        - name: "N2 金陵盐水鸭(半只) Nanjing Salted Duck(Half, Limited qty)"
-          description: "Tender salted duck, a classic dish."
-          price: "19.95"
-          image: "https://www.sweethomekitchensj.com/gallery/Salted%20duck.webp"
-    - name: "招牌特色菜 House Special" # Main Courses
+        - name: "Half Pound Snow Crab"
+          description: "Succulent half pound of snow crab, expertly prepared for a delightful dining experience."
+          price: "20.50"
+          image: "https://crabbynewark.com/gallery/Seafood_Half_Pound_Snow_Crab.webp"
+        - name: "Whole Lobster"
+          description: "Savor the taste of our whole lobster, cooked to perfection and bursting with flavor."
+          price: "52.99"
+          image: "https://crabbynewark.com/gallery/Seafood_Whole_Lobster.webp"
+    - name: "Combo" # Main Courses
       hasMenuItem:
-        - name: "T1 爆炒腰花(辣/不辣) Stir Fried Pork Kidney(Spicy/Non Spicy)"
-          description: "Stir-fried pork kidney cooked with spices."
-          price: "18.95"
+        - name: "Combo Deal #1"
+          description: "1lb Head On Shrimp, 1lb Crawfish Or Clams, 1lb Green Mussels. Pick 2 Free Items:1 Corn Or 2 Potatoes Or 4 Pc of Sausages."
+          price: "45.00"
           image: ""
-        - name: "T2 美极腰花 Special pork kidney"
-          description: "A special recipe for stir-fried kidney."
-          price: "18.95"
+        - name: "Combo Deal #2"
+          description: "1lb King Crab Legs, 1lb Head On Shrimp, 1lb Crawfish Or Clams. Pick 3 Free Items: 1 Corn Or 2 Potatoes Or 4 Pc of Sausages."
+          price: "80.00"
           image: ""
-    - name: "前菜 Appetizer" # Appetizers
+    - name: "Lunch Specials" # Appetizers
       hasMenuItem:
-        - name: "A1 特色黄瓜 House Special Cucumber"
-          description: "Crisp cucumbers with house dressing."
-          price: "8.95"
+        - name: "Lunch Special #1"
+          description: "0.5 lb Head On Shrimp, 0.5 lb Black Mussels"
+          price: "12.99"
           image: ""
-        - name: "A2 剁椒皮蛋 Pepper And Century Eggs"
-          description: "Century eggs topped with spicy sauce."
-          price: "8.95"
+        - name: "Lunch Special #2"
+          description: "0.5 lb Head On Shrimp, 0.5 lb Green Mussels"
+          price: "12.99"
           image: ""
-    - name: "海鲜系列 Seafood" # Main Courses
+    - name: "Fried" # Main Courses
+      # description: "Each Selection Made To Order,Hand-Tossed In Our Secret Batter."
+      image: "https://crabbynewark.com/gallery/Fried_Calamari_W_Fries.webp"
       hasMenuItem:
-        - name: "S2 椒盐鱼片 Salt Pepper Fish Filet"
-          description: "Crispy fish fillet seasoned with salt and pepper."
-          price: "16.95"
-          image: ""
-        - name: "S1 水煮鱼片 Sichuan Poached Spicy Fish Filet"
-          description: "Spicy poached fish fillet in Sichuan style."
-          price: "17.95"
-          image: ""
+        - name: "Fried Calamari W Fries"
+          description: "Crispy calamari served with golden fries, perfect for sharing or indulging on your own."
+          price: "12.99"
+          image: "https://crabbynewark.com/gallery/Fried_Calamari_W_Fries.webp"
+        # - name: "S1 水煮鱼片 Sichuan Poached Spicy Fish Filet"
+        #   description: "Spicy poached fish fillet in Sichuan style."
+        #   price: "12.99"
+        #   image: ""
         
   offers:
-    - name: "20% off cash discount on frozen handmade dumplings"
-      description: "Enjoy a 20% discount when you pay with cash for our frozen handmade dumplings."
+    - name: "Lunch Specials"
+      description: "0.5 lb Head On Shrimp, 0.5 lb Black Mussels, 1 corn 2 potatoes 4 pc sausages. Only $12.99. Available Monday to Friday, 11:30 AM to 3 PM."
       priceCurrency: "USD"
-      price: "varies"
-      image: ""
-    - name: "10% off cash discount on family meal takeout"
-      description: "Get 10% off when you pay with cash for family meal takeout."
-      priceCurrency: "USD"
-      price: "varies"
-      image: ""
-    - name: "Family Set: Any 3 dishes for $40"
-      description: "Choose any 3 dishes for just $40, includes free rice."
-      priceCurrency: "USD"
-      price: "40"
-      image: ""
-    - name: "Free rice with lunch"
-      description: "Receive free rice with any lunch order."
-      priceCurrency: "USD"
-      price: "0"
-      image: ""
+      price: "12.99"
+      image: "https://crabbynewark.com/offer.png"
+    # - name: "10% off cash discount on family meal takeout"
+    #   description: "Get 10% off when you pay with cash for family meal takeout."
+    #   priceCurrency: "USD"
+    #   price: "varies"
+    #   image: ""
+    # - name: "Family Set: Any 3 dishes for $40"
+    #   description: "Choose any 3 dishes for just $40, includes free rice."
+    #   priceCurrency: "USD"
+    #   price: "40"
+    #   image: ""
+    # - name: "Free rice with lunch"
+    #   description: "Receive free rice with any lunch order."
+    #   priceCurrency: "USD"
+    #   price: "0"
+    #   image: ""
       
 ---
-<!-- hello world -->
+<!-- Powered by Best Food Today -->
