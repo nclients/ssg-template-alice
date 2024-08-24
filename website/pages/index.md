@@ -26,6 +26,7 @@ banner:
 # header
 header:
   logoSize: 45
+  logoSizeOnMobile: 30
   textAfterLogo: 
     text: ""
     size: 16
@@ -283,6 +284,7 @@ footer:
   
   isLogo: true
   logoSize: 60
+  logoSizeOnMobile: 35
  
   menu:
     - { text: "Home", link: "/" }
