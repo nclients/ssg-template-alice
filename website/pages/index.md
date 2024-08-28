@@ -316,15 +316,16 @@ seo:
 
   metaDescription: "Crabby Crabby Newark is a premier seafood restaurant located at 6225 Jarvis Ave, Newark, CA 94560. Enjoy fresh and delicious seafood dishes in a vibrant and friendly atmosphere."
 
-  keywords: "" # steak, restaurant, fine dining, New York
-
-  img: "https://crabbynewark.com/gallery/Seafood_Whole_Dungeness_Crab.webp" # https://example.com/photos/1x1/photo.jpg
+  canonicalHref: "https://crabbynewark.com/" # https://example.com/
+    
+  locale: "en_US" # zh_TW | zh_CN | ja_JP
+   
+  # optional
 
   thisPageUrl: "https://crabbynewark.com/" # https://example.com/
-
-  locale: "en_US" # zh_TW | zh_CN | ja_JP
-
-  canonicalHref: "https://crabbynewark.com/" # https://example.com/
+  
+  img: "https://crabbynewark.com/gallery/Seafood_Whole_Dungeness_Crab.webp" # https://example.com/photos/1x1/photo.jpg
+  # keywords: "" # steak, restaurant, fine dining, New York
 
   name: "Crabby Crabby Newark" # restaurant name
 
@@ -332,14 +333,13 @@ seo:
     - "https://crabbynewark.com/gallery/Seafood_Whole_Dungeness_Crab.webp"  # https://example.com/photos/1x1/photo.jpg
     - "https://crabbynewark.com/gallery/Tacos_2.webp"  # https://example.com/photos/1x1/photo.jpg
     - "https://crabbynewark.com/gallery/Seafood_Whole_Dungeness_Crab_2.webp"  # https://example.com/photos/1x1/photo.jpg
-    - 
+  
   address:
     streetAddress: "6225 Jarvis Ave" # 148 W 51st St
     addressLocality: "Newark" # New York
     addressRegion: "CA" # NY
     postalCode: "94560" # 10019
     addressCountry: "US" # US
-
 
   review:
     ratingValue: "4.5" #4.5
@@ -372,7 +372,9 @@ seo:
     "Cajun Cuisine",
     "American Cuisine"
 ]
+
   priceRange: "$$" # $,$$,$$$,$$$$. $->Inexpensive, $$->Moderate, $$$->Expensive, $$$$->Luxury
+
   openingHours:
   - dayOfWeek:
       - "Monday"
@@ -397,14 +399,18 @@ seo:
     closes: "21:00"
    
   menu: "https://crabbynewark.com/" # https://example.com/
+  
   # acceptsReservations: true # true or false
   hasMenu: "https://crabbynewark.com/" # https://crabbynewark.com/full-menu
+  
   starRating:
     ratingValue: "4.5" # 4.5
     bestRating: "5" # 5
     author: "Google Review" # Michelin Guide, Google Review
     authorType: "organization" #person,organization
+
   currenciesAccepted: "USD" # USD
+  
   paymentAccepted: "Cash, Visa"
 
   hasMenuSection:
