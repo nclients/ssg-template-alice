@@ -4,7 +4,11 @@ import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
-  // site: 'https://www.example.com/',
+  site: 'https://dumpling-capital.com',
+  videoUrl:"",
+  videoThumbnailUrl:"",
+  videoTitle:"",
+  videoDesc:"",
   integrations: [tailwind(), react(),mdx()],
   srcDir: './website'
 });
