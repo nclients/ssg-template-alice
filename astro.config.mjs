@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://dumpling-capital.com',
+  // site: '', // Opening this will generate sitemap.xml and robots.txt
   videoUrl:"",
   videoThumbnailUrl:"",
   videoTitle:"",

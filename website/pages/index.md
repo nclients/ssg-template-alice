@@ -275,16 +275,23 @@ footer:
   bgOpacity: "1" # 0~1
   textColor: "#000000" # default white
 
+  isLogo: true
+  logoSize: 60
+  logoSizeOnMobile: 35
+
   openingHoursInsteadText: ""
   openingHours: 
     - "Monday:"
     - "11:00 AM - 2:30 PM, 5:00 PM - 7:30 PM"
     - "Tuesday - Sunday:"
     - "11:00 AM - 2:30 PM, 5:00 PM - 8:30 PM"
-  
-  isLogo: true
-  logoSize: 60
-  logoSizeOnMobile: 35
+ 
+  addressInsteadText: ""
+  address: 
+    - address: "adress1"
+      url: "https://..."
+    - address: "adress2"
+      url: "https://..."
  
   menu:
     - { text: "Home", link: "/" }
