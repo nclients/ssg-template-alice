@@ -288,9 +288,9 @@ footer:
  
   addressInsteadText: ""
   address: 
-    - address: "adress1"
+    - address: "address1"
       url: "https://..."
-    - address: "adress2"
+    - address: "address2"
       url: "https://..."
  
   menu:
