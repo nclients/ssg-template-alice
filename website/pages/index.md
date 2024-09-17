@@ -64,6 +64,8 @@ sections:
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gov6sj92av4Zb9OI9K1kKJat1rv1c"
     bgImg: "background_image.webp"
+    mobileBgImg: ""
+
     bgColor: "#000000"
     bgOpacity: "0.2" # 0~1
     title: 
